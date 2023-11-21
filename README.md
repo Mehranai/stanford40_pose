@@ -7,5 +7,4 @@ To Read the Pose Annotations You first need to import `pickle` to load these `.p
 with open(path-to-pkl-file, 'rb') as f:
     pose = pkl.load(f)
 ```
-
 Now you have pose coordiantes with shape (2, 17). i have used yolo for extact these keypoints.
